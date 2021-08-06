@@ -15,8 +15,8 @@ class _NavigationBarMobilePortraitState
     final List<Widget> _children = [
       HomePage(),
       HomePage(),
-      HomePage(),
-      HomePage(),
+      GamesPage(),
+      BookingPage(),
       HomePage(),
     ];
 
@@ -92,12 +92,16 @@ class _NavigationBarMobilePortraitState
                             spreadRadius: 0,
                             offset: Offset(0.0, 4.0))
                       ],
-                      color: Theme.of(context).primaryColor,
+                      color: (currentIndex.getIndex() == 2)
+                          ? Theme.of(context).backgroundColor
+                          : Theme.of(context).primaryColor,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Icon(
                       Icons.sports_esports,
-                      color: Theme.of(context).backgroundColor,
+                      color: (currentIndex.getIndex() == 2)
+                          ? Theme.of(context).primaryColor
+                          : Theme.of(context).backgroundColor,
                       size: 30,
                     ),
                   ),
