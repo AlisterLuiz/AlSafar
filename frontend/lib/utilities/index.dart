@@ -51,7 +51,7 @@ export 'package:alsafar/screens/portrait/mobile/booking/booking.dart';
 export 'package:alsafar/widgets/common/infolist_widget.dart';
 export 'package:alsafar/screens/portrait/mobile/games/games_page.dart';
 export 'package:alsafar/screens/portrait/mobile/chat/chat.dart';
-export 'package:alsafar/screens/portrait/notifications/notifications.dart';
+export 'package:alsafar/screens/portrait/mobile/notifications/notifications.dart';
 export 'package:alsafar/screens/portrait/mobile/profile/profile.dart';
 export 'package:font_awesome_flutter/font_awesome_flutter.dart';
 export 'package:alsafar/screens/portrait/mobile/chat/single_chat.dart';
