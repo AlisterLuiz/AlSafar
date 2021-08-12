@@ -25,6 +25,7 @@ export 'package:alsafar/widgets/base_widget.dart';
 export 'package:alsafar/widgets/common/games_widget.dart';
 export 'package:alsafar/widgets/common/user_info_widget.dart';
 export 'package:alsafar/widgets/common/appbar_widget.dart';
+export 'package:alsafar/widgets/sized_box.dart';
 
 // Responsivea
 export 'package:alsafar/enums/device_screen_type.dart';
@@ -49,6 +50,12 @@ export 'package:alsafar/screens/portrait/mobile/home/home_page.dart';
 export 'package:alsafar/screens/portrait/mobile/booking/booking.dart';
 export 'package:alsafar/widgets/common/infolist_widget.dart';
 export 'package:alsafar/screens/portrait/mobile/games/games_page.dart';
+export 'package:alsafar/screens/portrait/mobile/chat/chat.dart';
+export 'package:alsafar/screens/portrait/notifications/notifications.dart';
+export 'package:alsafar/screens/portrait/mobile/profile/profile.dart';
+export 'package:font_awesome_flutter/font_awesome_flutter.dart';
+export 'package:alsafar/screens/portrait/mobile/chat/single_chat.dart';
+export 'package:alsafar/screens/portrait/mobile/chat/groupChat.dart';
 
 // Services
 

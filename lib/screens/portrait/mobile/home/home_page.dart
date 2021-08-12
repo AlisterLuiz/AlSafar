@@ -62,24 +62,31 @@ class _HomePageState extends State<HomePage> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Expanded(
-                  child: Container(
-                    height: screenHeight(context) * 0.3,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      image: DecorationImage(
-                        image: AssetImage('assets/images/buddy.jpg'),
-                        fit: BoxFit.cover,
-                        colorFilter: ColorFilter.mode(
-                            Colors.black.withOpacity(0.50), BlendMode.dstATop),
+                  child: InkWell(
+                    onTap: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => GroupChat()));
+                    },
+                    child: Container(
+                      height: screenHeight(context) * 0.3,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20),
+                        image: DecorationImage(
+                          image: AssetImage('assets/images/buddy.jpg'),
+                          fit: BoxFit.cover,
+                          colorFilter: ColorFilter.mode(
+                              Colors.black.withOpacity(0.50),
+                              BlendMode.dstATop),
+                        ),
                       ),
-                    ),
-                    child: Center(
-                      child: Text(
-                        'Chat',
-                        style: TextStyle(
-                          color: Theme.of(context).primaryColor,
-                          fontSize: 22,
-                          fontWeight: FontWeight.w800,
+                      child: Center(
+                        child: Text(
+                          'Chat',
+                          style: TextStyle(
+                            color: Theme.of(context).primaryColor,
+                            fontSize: 22,
+                            fontWeight: FontWeight.w800,
+                          ),
                         ),
                       ),
                     ),

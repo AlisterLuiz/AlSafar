@@ -14,10 +14,10 @@ class _NavigationBarMobilePortraitState
 
     final List<Widget> _children = [
       HomePage(),
-      HomePage(),
+      Chat(),
       GamesPage(),
       BookingPage(),
-      HomePage(),
+      Profile(),
     ];
 
     return SafeArea(

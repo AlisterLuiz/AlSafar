@@ -19,10 +19,10 @@ class _BookingPageState extends State<BookingPage> {
         ),
         child: ListView(
           children: [
-            UserInfoWidget(),
-            SizedBox(
-              height: screenHeight(context) * 0.05,
-            ),
+            // UserInfoWidget(),
+            // SizedBox(
+            //   height: screenHeight(context) * 0.05,
+            // ),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [

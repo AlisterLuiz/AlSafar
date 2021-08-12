@@ -19,10 +19,10 @@ class _GamesPageState extends State<GamesPage> {
         ),
         child: ListView(
           children: [
-            UserInfoWidget(),
-            SizedBox(
-              height: screenHeight(context) * 0.05,
-            ),
+            // UserInfoWidget(),
+            // SizedBox(
+            //   height: screenHeight(context) * 0.05,
+            // ),
             GamesWidget(),
             SizedBox(
               height: screenHeight(context) * 0.03,
