@@ -31,6 +31,8 @@ dependencies:
   device_preview: ^0.7.4
   flutter:
     sdk: flutter
+  font_awesome: ^5.10.1
+  font_awesome_flutter: ^9.1.0
   provider: ^5.0.0
 
 dev_dependencies:
