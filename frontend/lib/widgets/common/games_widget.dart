@@ -28,7 +28,7 @@ class GamesWidget extends StatelessWidget {
             itemBuilder: (context, index) {
               return Padding(
                 padding: EdgeInsets.only(
-                  right: screenWidth(context) * 0.02,
+                  right: screenWidth(context) * 0.04,
                 ),
                 child: Stack(
                   alignment: Alignment.center,

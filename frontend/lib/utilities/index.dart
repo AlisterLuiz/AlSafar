@@ -3,6 +3,7 @@ export 'package:flutter/foundation.dart';
 export 'package:flutter/material.dart';
 export 'package:flutter/services.dart';
 export 'package:provider/provider.dart';
+export 'package:carousel_slider/carousel_slider.dart';
 
 // Dart Packages
 export 'dart:io';
@@ -56,6 +57,8 @@ export 'package:alsafar/screens/portrait/mobile/profile/profile.dart';
 export 'package:font_awesome_flutter/font_awesome_flutter.dart';
 export 'package:alsafar/screens/portrait/mobile/chat/single_chat.dart';
 export 'package:alsafar/screens/portrait/mobile/chat/groupChat.dart';
+export 'package:alsafar/screens/portrait/mobile/rewards/rewards.dart';
+export 'package:alsafar/screens/portrait/mobile/rewards/single_reward.dart';
 
 // Services
 
