@@ -87,6 +87,8 @@ class _GroupChatState extends State<GroupChat> {
                         radius: 25.0,
                         child: CircleAvatar(
                           backgroundColor: Colors.white,
+                          backgroundImage: NetworkImage(
+                              'https://imagevars.gulfnews.com/2020/10/20/NAT-RTA-1-1603196931420_17545fbcd5d_original-ratio.jpg'),
                           radius: 23.0,
                         ),
                       ),
@@ -235,6 +237,7 @@ class _GroupChatState extends State<GroupChat> {
                   children: [
                     CircleAvatar(
                       backgroundColor: Theme.of(context).primaryColor,
+                      backgroundImage: NetworkImage('https://www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png'),
                       radius: 18,
                     ),
                     sizedBox(0, 8),

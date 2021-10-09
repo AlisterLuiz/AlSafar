@@ -89,6 +89,8 @@ class _SingleChatState extends State<SingleChat> {
                             radius: 25.0,
                             child: CircleAvatar(
                               backgroundColor: Colors.white,
+                              backgroundImage: NetworkImage(
+                                  'https://www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png'),
                               radius: 23.0,
                             ),
                           ),

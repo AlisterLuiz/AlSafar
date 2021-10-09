@@ -1,4 +1,3 @@
-import 'package:device_preview/device_preview.dart';
 import 'package:alsafar/utilities/index.dart';
 
 void main() {
@@ -15,10 +14,7 @@ void main() {
           create: (BuildContext context) => CurrentIndexProvider(),
         ),
       ],
-      child: DevicePreview(
-        enabled: false,
-        builder: (context) => MyApp(),
-      ),
+      child: MyApp(),
     ),
   );
 }
@@ -27,7 +23,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      builder: DevicePreview.appBuilder,
       title: 'Al Safar',
       theme: Provider.of<ThemeModel>(context).currentTheme,
       initialRoute: Routes.homeView,

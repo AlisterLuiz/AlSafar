@@ -29,13 +29,15 @@ environment:
 dependencies:
   carousel_slider: ^4.0.0
   cupertino_icons: ^1.0.2
-  device_preview: ^0.7.4
+  # device_preview: ^0.7.4
   flutter:
     sdk: flutter
   font_awesome: ^5.10.1
   font_awesome_flutter: ^9.1.0
   provider: ^5.0.0
-
+  snake:
+    git: 
+      url: https://github.com/anupcowkur/Snake
 dev_dependencies:
   flutter_lints: ^1.0.0
   flutter_test:

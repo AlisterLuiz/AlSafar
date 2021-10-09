@@ -204,6 +204,8 @@ class _ProfileState extends State<Profile> {
                       child: CircleAvatar(
                         radius: screenWidth(context) * 0.22,
                         backgroundColor: Theme.of(context).accentColor,
+                        backgroundImage: NetworkImage(
+                            'https://www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png'),
                       ),
                     ),
                   ),

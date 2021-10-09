@@ -77,6 +77,8 @@ class ChatList extends StatelessWidget {
             leading: CircleAvatar(
               radius: 20,
               backgroundColor: Theme.of(context).primaryColor,
+              backgroundImage: NetworkImage(
+                  'https://www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png'),
             ),
             title: Container(
               width: screenWidth(context) * 0.7,

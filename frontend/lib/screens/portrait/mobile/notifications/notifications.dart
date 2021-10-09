@@ -64,6 +64,8 @@ class _NotificationsState extends State<Notifications> {
                           flex: 1,
                           child: CircleAvatar(
                             backgroundColor: Theme.of(context).primaryColor,
+                            backgroundImage: NetworkImage(
+                                'https://www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png'),
                             radius: 23,
                           ),
                         ),
@@ -192,6 +194,11 @@ class _NotificationsState extends State<Notifications> {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(5),
                               color: Theme.of(context).primaryColor,
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  'https://sscdn.reward360.us/prod1.1/ssassets/utility/img/logos/partner-logos/nol.jpg',
+                                ),
+                              ),
                             ),
                           ),
                         ),

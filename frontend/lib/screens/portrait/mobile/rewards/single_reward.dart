@@ -21,6 +21,12 @@ class _SingleRewardState extends State<SingleReward> {
                 height: screenHeight(context) * 0.3,
                 decoration: const BoxDecoration(
                   color: Colors.black,
+                  image: DecorationImage(
+                    image: NetworkImage(
+                      'https://image.freepik.com/free-vector/gradient-colorful-sale-wallpaper_52683-55788.jpg',
+                    ),
+                    fit: BoxFit.cover,
+                  ),
                   // borderRadius: BorderRadius.only(
                   //   bottomLeft: Radius.circular(20),
                   //   bottomRight: Radius.circular(20),
@@ -36,7 +42,7 @@ class _SingleRewardState extends State<SingleReward> {
                         Container(
                           margin: EdgeInsets.all(20),
                           padding: EdgeInsets.all(20),
-                          height: screenHeight(context) * 0.2,
+                          height: screenHeight(context) * 0.25,
                           decoration: BoxDecoration(
                             color: Theme.of(context).primaryColor,
                             borderRadius: BorderRadius.circular(25),
@@ -169,6 +175,5 @@ class _SingleRewardState extends State<SingleReward> {
         ],
       ),
     );
-
   }
 }

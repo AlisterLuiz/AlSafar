@@ -17,7 +17,7 @@ class _RewardsState extends State<Rewards> {
           Container(
             margin: EdgeInsets.all(20),
             padding: EdgeInsets.all(20),
-            height: screenHeight(context) * 0.15,
+            height: screenHeight(context) * 0.17,
             decoration: BoxDecoration(
               color: Theme.of(context).primaryColor,
               borderRadius: BorderRadius.circular(25),
@@ -83,6 +83,12 @@ class _RewardsState extends State<Rewards> {
                       decoration: BoxDecoration(
                         color: Theme.of(context).primaryColor,
                         borderRadius: BorderRadius.circular(25),
+                        image: DecorationImage(
+                          image: NetworkImage(
+                            'https://image.freepik.com/free-vector/gradient-colorful-sale-wallpaper_52683-55788.jpg',
+                          ),
+                          fit: BoxFit.cover,
+                        ),
                       ),
                     ),
                   );
@@ -105,7 +111,7 @@ class _RewardsState extends State<Rewards> {
             physics: NeverScrollableScrollPhysics(),
             shrinkWrap: true,
             itemCount: 4,
-            itemExtent: screenHeight(context) * 0.1,
+            itemExtent: screenHeight(context) * 0.14,
             itemBuilder: (context, i) {
               return Padding(
                 padding: const EdgeInsets.symmetric(
@@ -131,6 +137,10 @@ class _RewardsState extends State<Rewards> {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       color: Theme.of(context).backgroundColor,
+                      image: DecorationImage(
+                        image: NetworkImage('https://image.freepik.com/free-vector/gradient-colorful-sale-wallpaper_52683-55788.jpg'),
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   title: const Text(
